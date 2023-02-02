@@ -1,0 +1,67 @@
+.navbar {
+    background-color: rgba(1, 24, 32, 0.571);
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "lato";
+    position: sticky;
+    
+    
+  }
+  .logo {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    font-size: 1.9em;
+    margin-right: auto;
+    margin-left: 10px;
+    font-family: "Francois One";    
+    color: #ffffff;
+  } 
+body{
+background:url(https://4kwallpapers.com/images/walls/thumbs_2t/9024.png);
+padding: 25px;
+background-repeat: no-repeat; 
+background-size: cover;
+margin: 0;
+font-size: 9px;
+}
+
+.item {
+    margin-right:500px;
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 5px;
+    font-size:medium;
+}
+
+img{
+  height: 210px;
+  width: 210px;
+border-radius: 50%;
+}
+
+button{
+  background-color: rgba(1, 24, 32, 0.829); 
+  border: none;
+  color: #ffffff;
+  padding: 15px 20px;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 5%;
+}
+
+input {
+  width: 100%;
+  background-color: rgba(1, 24, 32, 0.829);
+  color: rgb(255, 255, 255);
+  padding: 10px 5px;
+  margin-right: 30%;
+  border: none;
+  border-radius: 4px;
+
+}
